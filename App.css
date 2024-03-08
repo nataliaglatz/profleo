@@ -1,0 +1,60 @@
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #f3aeae85;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid  #ccc;
+    box-shadow: 0 5px 10px rgba(241, 106, 106, 0.5);
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #b47b7b;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: rgb(177, 85, 103);
+   transform: translateY(10px);
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check:checked{
+    background-color: #ccc;
+}
